@@ -3,13 +3,15 @@ import React from "react";
 
 import { AnimatePresence, motion } from "framer-motion";
 import { CanvasRevealEffect } from "./ui/CanvesRevealEffect";
+import { ShootingStars } from "./ui/shooting-starts";
+import { SparklesCore } from "./ui/sparkles";
 
 const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
         My
-        <span className="text-purple">approach</span>
+        <span className="text-purple"> approach</span>
       </h1>
       <div className="py-20 flex flex-col lg:flex-row items-center justify-center gap-4 mx-auto px-8">
         <Card
@@ -20,9 +22,10 @@ const Approach = () => {
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
           />
+    
         </Card>
         <Card
-          title="Nisha is Munni"
+          title="Designing & Developing"
           icon={<AceternityIcon order="Phase 2" />}
           description="">
           <CanvasRevealEffect
@@ -38,7 +41,7 @@ const Approach = () => {
           <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
         </Card>
         <Card
-          title="Munni is Aditi"
+          title="Deploying and Maintaining"
           icon={<AceternityIcon order="Phase 3" />}
           description="">
           <CanvasRevealEffect
@@ -73,7 +76,7 @@ const Card = ({
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -top-3 -right-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -right-3 dark:text-white text-black" />
-
+      {/* <SparklesCore /> */}
       <AnimatePresence>
         {hovered && (
           <motion.div

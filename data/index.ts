@@ -72,11 +72,11 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+      title: "AI Podcaster",
+      des: "Convert Your thoughts into your voice using AI",
       img: "/p1.svg",
       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      link: "https://github.com/Jay-Deep-Senwarkr/podcaster",
     },
     {
       id: 2,
@@ -205,13 +205,21 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/Jay-Deep-Senwarkr"
     },
     {
       id: 2,
-      img: "/twit.svg",
+      img: "/x.svg",
+      link: "https://x.com/JayDeep85387689"
     },
     {
       id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/jay-deep-a794ab224/"
+    },
+    {
+      id: 4,
+      img: "/insta.svg",
+      link: "https://www.instagram.com/jaydeep_the_gamer/"
     },
   ];
